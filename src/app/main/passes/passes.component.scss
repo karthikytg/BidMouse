@@ -1,0 +1,145 @@
+.pass-row {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    .left {
+        flex: 1;
+        .img-div {
+            margin-top: 5rem;
+            text-align: center;
+            background-image: linear-gradient(#0E0052, #342699);
+            img {
+                width: 85%;
+                margin: 5rem 0rem;
+            }
+        }
+    }
+    .right {
+        flex: 1;
+        font-family: Lato;
+        .day {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            font-size: 120px;
+            font-weight: 300;
+            width: 80%;
+        }
+        .price {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            font-size: 120px;
+            font-weight: 300;
+        }
+        input {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            background: transparent;
+            border: 1px solid #FFFFFF;
+            color: #FFFFFF;
+            padding: 2rem 10rem;
+            border-radius: 55px;
+            font-size: 14px;
+            font-weight: 900;
+        }
+    }
+}
+.day-pass {
+    color: #FFFFFF;
+    font-family: 'Lato';
+    margin-left: 5rem;
+    margin-top: 5rem;
+    font-size: 10rem;
+    width: 81%;
+}
+.pass-list {
+    &.color1 {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+    &.color2 {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+    display: flex;
+    flex-direction: row;
+    .pass {
+        flex: 1;
+        text-align: center;
+        &.b1 {
+            border: 1px solid #000000;
+        }
+        &.b2 {
+            border: 1px solid #FFFFFF;
+            border-right: none;
+        }
+        &.bg1 {
+            background-image: linear-gradient(#E86363, #9F046A);
+            color: #FFFFFF;
+        }
+        &.bg2 {
+            background-image: linear-gradient(#D98D33, #C43C5E, #523892);
+            color: #FFFFFF;
+        }
+        &.bg3 {
+            background-image: linear-gradient(#51567D, #082456);
+            color: #FFFFFF;
+        }
+        .title {      
+            margin-top: 2rem;      
+            font-family: Lato;
+            font-size: 36px;
+            font-weight: 300;
+        }
+        .price {
+            // color: #000000;
+            font-family: Lato;
+            font-size: 64px;
+            font-weight: 300;
+            margin-top: 2rem;
+        }
+        img {
+            width: 60%;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+    }
+}
+.flex-support-contact {
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    color: #FFFFFF;
+    font-family: "Cinzel Decorative";
+    // font-size: 18px;
+
+    .support {
+        flex: 1;
+        padding: 10rem 5rem;
+        .text {
+            // padding: 5rem;
+        }
+        .social {
+            font-size: 1.5vw;
+            letter-spacing: 0;
+        }
+        .social-icons {
+            img {
+                margin-top: 1rem;
+                margin-right: 5rem;
+                width: 4rem;
+            }
+        }
+        .unit {
+            font-size: 2vw;
+        }
+    }
+    .contact {
+        flex: 1;
+        padding: 10rem 5rem;
+        span {
+            font-size: 24px;
+            border-bottom: 2px solid #FFFFFF;
+        }
+    
+    }
+}
